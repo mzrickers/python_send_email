@@ -23,6 +23,8 @@ html = f"""
 </html>
 """
 
+message.add_alternative(html, settype = "html")
+
 context = ssl.create_default_context()
 
 print("Sending Email!")
